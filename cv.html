@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="Warnar Boekkooi, nice-job@boekkooi.net">
+
+    <title>Warnar Boekkooi - Curriculum vitae</title>
+
+    <link href="https://cdn.jsdelivr.net/fontawesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/normalize/3.0.3/normalize.min.css" rel="stylesheet">
+    <link href="css/default.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
+    <link href="css/resume_print.css" rel="stylesheet" media="print">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!--[if lt IE 9]>
+    <link href="css/resume_ie.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<section id="main" class="document" itemscope itemtype="http://schema.org/Person">
+    <div id="cv_top">
+        <header>
+            <div id="cv_hdr_title">Curriculum vitae</div>
+            <div id="cv_hdr_wrapper">
+                <a id="cv_hdr" href="http://boekkooi.net/">
+                    <h1 class="cv_name" itemprop="name">Warnar Boekkooi</h1>
+                    <span itemprop="jobTitle">Web Developer &amp; Consultant</span>
+                </a>
+            </div>
+        </header>
+        <img id="cv_img" src="img/head.jpg" itemprop="image" alt="Warnar Boekkooi photo" />
+
+        <div id="cv_social">
+            <a id="rel_github" href="https://github.com/boekkooi" rel="noreferrer noopener" target="_blank" itemprop="url"><i class="fa fa-github-square"></i> github.com/Boekkooi</a>
+            <a id="rel_twitter" href="https://twitter.com/boekkooi" rel="noreferrer noopener" target="_blank" itemprop="url"><i class="fa fa-twitter-square"></i> twitter.com/Boekkooi</a>
+            <a id="rel_linkedin" href="https://linkedin.com/in/boekkooi" rel="noreferrer noopener" target="_blank" itemprop="url"><i class="fa fa-linkedin-square"></i> linkedin.com/in/Boekkooi</a>
+        </div>
+    </div>
+    <section class="cv_sec">
+        <header class="sec_hdr"><h2 class="sec_hdr_inner">Freelance experience</h2></header>
+        <section class="job" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2013-07-01">07-2014</time> - present
+                </span>
+                <a class="job_company" href="http://www.xoip.com/" rel="noreferrer noopener" target="_blank" itemprop="name">XOIP</a>
+                <span class="job_location job_location_cn" title="Beijing, China">Beijing, CN</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Consultant &amp; Lead Developer</div>
+            <div class="job_desc" itemprop="description">
+                Hired by <a href="http://www.xoip.com/" rel="noreferrer noopener" target="_blank">XOIP</a> to develop their new platform.<br />
+                This project required me to re-design their platform using <a href="http://martinfowler.com/bliki/CQRS.html" title="Command Query Responsibility Segregation" rel="noreferrer noopener" target="_blank">CQRS</a> and <a href="http://martinfowler.com/eaaDev/EventSourcing.html" rel="noreferrer noopener" target="_blank">Event Sourcing</a>, integrating multiple external services like <a href="http://www.hylafax.org/" rel="noreferrer noopener" target="_blank">HylaFAX</a> and <a href="http://www.asterisk.org/" rel="noreferrer noopener" target="_blank">Asterisk</a> and decouple the system using <a href="https://www.rabbitmq.com/" rel="noreferrer noopener" target="_blank">RabbitMQ</a>.<br />
+                The main parts of the project were built using <a href="http://php.net/" rel="noreferrer noopener" target="_blank">PHP 7.0</a>, <a href="http://symfony.com/" rel="noreferrer noopener" target="_blank">Symfony 2</a> and <a href="https://www.perl.org/" rel="noreferrer noopener" target="_blank">Perl</a>.
+            </div>
+        </section>
+
+        <section class="job" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2013-11-22">11-2013</time> - <time datetime="2014-10-02">10-2014</time>
+                </span>
+                <span class="job_company" itemprop="name">TourManage</span>
+                <span class="job_location job_location_cn" title="Beijing, China">Beijing, CN</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Consultant &amp; Lead Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as a consultant and lead developer for TourManage, helping this startup to create their new system for Chinese tour leaders and organizations in the European market.<br />
+                The work included (but was not limited to) the following list of items:<br>
+                <ul>
+                    <li>
+                        Designing a system architecture that is based on an API first approach and utilizes both <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete" rel="noreferrer noopener" target="_blank" title="Create, read, update and delete">CRUD</a> and <a href="http://martinfowler.com/bliki/CQRS.html" rel="noreferrer noopener" target="_blank" title="Command Query Responsibility Segregation">CQRS</a>.
+                    </li>
+                    <li>
+                        Developing multiple internal <a href="https://www.python.org/" rel="noreferrer noopener" target="_blank">Python</a> libraries and working on implementing the REST based API.
+                    </li>
+                    <li>
+                        Setting up continues integration using <a href="https://github.com/" rel="noreferrer noopener" target="_blank">GitHub</a> and <a href="https://travis-ci.com/" rel="noreferrer noopener" target="_blank">Travis</a> for the backend project and mobile projects.
+                    </li>
+                    <li>
+                        Setting up development and testing servers/virtual machines.
+                    </li>
+                </ul>
+                The backend project was built using <a href="https://www.python.org/" rel="noreferrer noopener" target="_blank">Python 2.7</a>, <a href="https://www.djangoproject.com/" rel="noreferrer noopener" target="_blank">Django 1.7</a> and <a href="http://www.postgresql.org/" rel="noreferrer noopener" target="_blank">PostgreSQL</a>.
+            </div>
+        </section>
+        <section class="job" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2013-09-03">09-2013</time> - <time datetime="2012-10-20">10-2013</time>
+                </span>
+                <a class="job_company" href="http://enem.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">ENEM B.V.</a>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Developer</div>
+            <div class="job_desc" itemprop="description">
+                Hired by <a href="http://enem.nl/" rel="noreferrer noopener" target="_blank">ENEM B.V.</a> to build a customer portal for showing and analyzing <a href="http://www.port25.com/powermta/" target="_parent">PowerMTA</a> logs.<br />
+                This project was built using <a href="http://php.net/" rel="noreferrer noopener" target="_blank">PHP 5.3</a>, <a href="http://symfony.com/" rel="noreferrer noopener" target="_blank">Symfony 2</a> and <a href="http://www.mysql.com/" rel="noreferrer noopener" target="_blank">MySQL</a>.
+            </div>
+        </section>
+        <section class="job" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2012-11-01">11-2012</time> - <time datetime="2013-08-01">08-2013</time>
+                </span>
+                <a class="job_company" href="http://www.boltconcepts.eu/" rel="noreferrer noopener" target="_blank" itemprop="name">Boltconcepts</a>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Owner &amp; Lead Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as the lead developer for <a href="http://www.boltconcepts.eu/" rel="noreferrer noopener" target="_blank">Boltconcepts</a> on creating <a href="http://www.boltform.eu/">BoltForm</a>.<br />
+                The work included creating the prototype Symfony 2 based form generator and builder shown on <a href="http://boltform-boltconcepts.rhcloud.com/" rel="noreferrer noopener" target="_blank">boltform-boltconcepts.rhcloud.com</a>.
+            </div>
+        </section>
+        <section class="job" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2012-04-17">04-2012</time> - <time datetime="2014-03-01">03-2014</time>
+                </span>
+                <a class="job_company" href="http://www.hanzemediagroep.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">Hanze Media Groep BV</a>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Consultant &amp; Lead Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as a consultant and lead developer for <a href="http://www.hanzemediagroep.nl/" rel="noreferrer noopener" target="_blank">Hanze Media Groep BV</a> to maintain and enhance their job boards. <br/>
+                The work included (but was not limited to) the following list of items:<br/>
+                <ul>
+                    <li>
+                        Maintaining and enhancing job boards (<a href="http://www.bouwvacatures.nl/" rel="noreferrer noopener" target="_blank">bouwvacatures</a>, <a href="http://www.techniekvacaturebank.nl/" rel="noreferrer noopener" target="_blank">techniekvacaturebank</a>, <a href="http://www.vacant.nl/" rel="noreferrer noopener" target="_blank">vacant</a>, <a href="http://www.officevacatures.nl/">officevacatures</a> and more).
+                    </li>
+                    <li>
+                        Developing new job boards like <a href="http://www.ictvacatures.nl/" rel="noreferrer noopener" target="_blank">ICTvacatures</a>.
+                    </li>
+                    <li>
+                        Implemented mayor redesigns for most of the job boards.
+                    </li>
+                    <li>
+                        Orchestrated the movement of job boards to new servers and providers.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2012-01-01">01-2012</time> - <time datetime="2012-12-01">12-2012</time>
+                </span>
+                <a class="job_company" href="http://i-groupinc.net/" rel="noreferrer noopener" target="_blank" itemprop="name">I-Group Inc.</a>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as a developer for <a href="http://i-groupinc.net/" rel="noreferrer noopener" target="_blank">I-Group Inc.</a> on <a href="https://www.i-linked.net/">i-linked</a>.<br />
+                This included updating and developing a Javascript form builder and report builder prototype for creating custom customer workflows.
+            </div>
+        </section>
+    </section>
+    <section class="cv_sec sec_color">
+        <header class="sec_hdr"><h2 class="sec_hdr_inner">Permanent experience</h2></header>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2010-04-01">04-2010</time> - <time datetime="2012-01-01">01-2012</time>
+                </span>
+                <a class="job_company" href="https://www.ingoedebanen.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">InGoedeBanen.nl BV</a>
+                <span class="job_location job_location_nl" title="Groningen, The Netherlands">Groningen, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Senior Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as a senior developer and part of the InGoedeBanen team to maintain and extend their services. <br/>
+                This included maintenance and development of the vacancy posting service and developing the resume search service.
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2009-02-01">02-2009</time> - <time datetime="2010-04-01">04-2010</time>
+                </span>
+                <a class="job_company" href="http://www.lijnco.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">Speciaaldrukkerij Lijnco</a>
+                <span class="job_location job_location_nl" title="Groningen, The Netherlands">Groningen, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as a PHP/.NET developer and part of the IT Department to support and simplify workflows.<br/>
+                This ranged from developing customer to print (web)applications to creating barcode generation software.
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2007-01-01">01-2007</time> - <time datetime="2009-02-01">02-2009</time>
+                </span>
+                <span class="job_company" itemprop="name">DMM Websolutions</span>
+                <span class="job_location job_location_nl" title="Groningen, The Netherlands">Groningen, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Developer</div>
+            <div class="job_desc" itemprop="description">
+                Worked as a PHP developer with a great team to create job boards and other customer (web)applications. <br/>
+                This work included developing and maintaining some of the largest job boards in the Netherlands.
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2005-07-01">07-2005</time> - <time datetime="2006-10-01">10-2006</time>
+                </span>
+                <a class="job_company" href="http://www.viadata.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">ViaData Automatisering</a>
+                <span class="job_location job_location_nl" title="Heerenveen, The Netherlands">Heerenveen, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Solution Developer .NET</div>
+            <div class="job_desc" itemprop="description">
+                As part of the mobile development team I helped create a ticket and planning system for one of the first generation smartphones.
+                Customers included one of the biggest energy companies in the Netherlands.
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2004-08-01">08-2004</time> - <time datetime="2005-03-01">03-2005</time>
+                </span>
+                <span class="job_company" itemprop="name">ProCtrl</span>
+                <span class="job_location job_location_nl" title="Haren, The Netherlands">Haren, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Intern</div>
+            <div class="job_desc" itemprop="description">
+                As an intern I worked on developing a drag-drop CMS system using Javascript and .NET technology.
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2003-08-01">04-2003</time> - <time datetime="2004-03-01">03-2004</time>
+                </span>
+                <a class="job_company" href="http://www.exedo.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">Exedo</a>
+                <span class="job_location job_location_nl" title="Rotterdam, The Netherlands">Rotterdam, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Intern</div>
+            <div class="job_desc" itemprop="description">
+                As part of my internship I developed and maintained a set of customer tools for the hosting department.
+            </div>
+        </section>
+        <section class="job" itemprop="affiliation" itemscope itemtype="http://schema.org/Organization">
+            <header>
+                <span class="job_time">
+                    <time datetime="2003-08-01">04-2003</time> - <time datetime="2004-03-01">03-2004</time>
+                </span>
+                <a class="job_company" href="http://www.pressureline.nl/" rel="noreferrer noopener" target="_blank" itemprop="name">Pressure Line</a>
+                <span class="job_location job_location_nl" title="Rotterdam, The Netherlands">Rotterdam, NL</span>
+            </header>
+            <div class="job_title" itemprop="jobTitle">Intern</div>
+            <div class="job_desc" itemprop="description">
+                As part of my internship I developed a CRM system for internal usage and converted multiple designs to websites.
+            </div>
+        </section>
+    </section>
+<br />
+    <section class="cv_sec">
+        <header class="sec_hdr"><h2 class="sec_hdr_inner">Education</h2></header>
+        <section class="edu" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+            <span class="edu_time">
+                <time datetime="2010">2010</time>
+            </span>
+            <span class="edu_header"><span itemprop="description">Web Site .NET Developer Certification for Sitecore CMS 6.2</span> - <em itemprop="name">Sitecore</em></span>
+            <span class="edu_location" title="Zeist, The Netherlands">Zeist, NL</span>
+            <i class="edu_state_success fa fa-check-square-o" title="Certified"></i>
+        </section>
+        <section class="edu">
+            <span class="edu_time">
+                <time datetime="2005">2005</time> - <time datetime="2006">2006</time>
+            </span>
+            <span class="edu_header">B.Sc. Informatica - <em>Hanzehogeschool</em></span>
+            <span class="edu_location" title="Groningen, The Netherlands">Groningen, NL</span>
+            <i class="edu_state_failed fa fa-square-o" title="Deferred"></i>
+        </section>
+        <section class="edu" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+            <span class="edu_time">
+                <time datetime="2004">2004</time> - <time datetime="2005">2005</time>
+            </span>
+            <span class="edu_header"><span itemprop="description">ICT-Beheer</span> - <em itemprop="name">Alfa-college</em></span>
+            <span class="edu_location" title="Groningen, The Netherlands">Groningen, NL</span>
+            <i class="edu_state_success fa fa-check-square-o" title="Graduated"></i>
+        </section>
+        <section class="edu" itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+            <span class="edu_time">
+                <time datetime="2001">2001</time> - <time datetime="2004">2004</time>
+            </span>
+            <span class="edu_header" itemprop="description">Medewerker Beheer ICT - <em itemprop="name">Alfa-college</em></span>
+            <span class="edu_location" title="Groningen, The Netherlands">Groningen, NL</span>
+            <i class="edu_state_success fa fa-check-square-o" title="Graduated"></i>
+        </section>
+        <section class="edu">
+            <span class="edu_time">
+                <time datetime="1998">1998</time> - <time datetime="2001">2001</time>
+            </span>
+            <span class="edu_header">Atheneum (VWO) - <em>Zernike College</em></span>
+            <span class="edu_location" title="Zuidlaren, The Netherlands">Zuidlaren, NL</span>
+            <i class="edu_state_failed fa fa-square-o" title="Deferred"></i>
+        </section>
+    </section>
+    <section class="cv_sec sec_color">
+        <header class="sec_hdr"><h2 class="sec_hdr_inner">Skills</h2></header>
+        <div class="skill_wrap">
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Languages</h4>
+                <ul class="ul_plain">
+                    <li>
+                        <span class="skill_title" itemprop="itemListElement">Dutch</span>
+                        <span class="skill_rating">Native</span>
+                    </li>
+                    <li>
+                        <span class="skill_title" itemprop="itemListElement">English</span>
+                        <span class="skill_rating">Fluent</span>
+                    </li>
+                    <li>
+                        <span class="skill_title" itemprop="itemListElement">German</span>
+                        <span class="skill_rating">Proficient</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Programming languages</h4>
+                <ul class="ul_plain">
+                    <li>
+                        <a class="skill_title" href="http://php.net/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">PHP</a>
+                        <span class="rating_5"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <span class="skill_title" itemprop="itemListElement">JavaScript</span>
+                        <span class="rating_5"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.w3.org/Style/CSS/Overview.en.html" rel="noreferrer noopener" target="_blank" title="HyperText Markup Language" itemprop="itemListElement">HTML</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.w3.org/Style/CSS/Overview.en.html" rel="noreferrer noopener" target="_blank" title="Cascading Style Sheets" itemprop="itemListElement">CSS</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <span class="skill_title" itemprop="itemListElement">C#</span>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="https://www.perl.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Perl</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="https://www.python.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Python</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                </ul>
+            </section>
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Databases</h4>
+                <ul class="ul_plain">
+                    <li>
+                        <a class="skill_title" href="http://www.mysql.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">MySQL</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.mongodb.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">MongoDB</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.microsoft.com/en-us/sqlserver/default.aspx" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">MSSQL</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://memcached.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Memcached</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://redis.io/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Redis</a>
+                        <span class="rating_1"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.neo4j.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Neo4j</a>
+                        <span class="rating_1"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                </ul>
+            </section>
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Frameworks &amp; Libraries</h4>
+                <ul class="ul_plain">
+                    <li>
+                        <a class="skill_title" href="http://symfony.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Symfony 2</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.doctrine-project.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Doctrine 2</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://jquery.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">jQuery</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://framework.zend.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Zend Framework 1</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://meteor.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Meteor</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://knockoutjs.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Knockout</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                </ul>
+            </section>
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Tools</h4>
+                <ul class="ul_plain">
+                    <li>
+                        <a class="skill_title" href="http://vagrantup.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Vagrant</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.jetbrains.com/phpstorm/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">PhpStorm</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://git-scm.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Git</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="https://www.virtualbox.org/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">VirtualBox</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="https://www.ansible.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Ansible</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                </ul>
+            </section>
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Operating systems</h4>
+                <ul class="ul_plain">
+                    <li>
+                        <a class="skill_title" href="http://windows.microsoft.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Windows (XP and up)</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.ubuntu.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Ubuntu</a>
+                        <span class="rating_4"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.apple.com/ios/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">IOS</a>
+                        <span class="rating_3"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.android.com/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Android</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                    <li>
+                        <a class="skill_title" href="http://www.apple.com/osx/" rel="noreferrer noopener" target="_blank" itemprop="itemListElement">Mac OS X</a>
+                        <span class="rating_2"><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i><i class="star"></i></span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </section>
+    <section class="cv_sec">
+        <header class="sec_hdr"><h2 class="sec_hdr_inner">Additional Information</h2></header>
+        <div class="skill_wrap">
+            <section class="sec_col skill" itemscope itemtype="http://schema.org/ItemList">
+                <h4 class="sec_col_hdr" itemprop="name">Hobbies</h4>
+                <ul class="ul_plain">
+                    <li itemprop="itemListElement">Programming (see <a href="https://github.com/boekkooi" rel="noreferrer noopener" target="_blank">github</a>)</li>
+                    <li itemprop="itemListElement">Cooking</li>
+                    <li itemprop="itemListElement">Traveling</li>
+                </ul>
+            </section>
+            <section class="sec_col skill">
+                <h4 class="sec_col_hdr">References</h4>
+                <ul class="ul_plain">
+                    <li itemprop="colleague" itemscope itemtype="http://schema.org/Person">
+                        <a href="https://twitter.com/rosstuck" rel="noreferrer noopener" target="_blank" itemprop="name">Ross Tuck</a> - <span itemprop="jobTitle">Freelance developer</span> (<a href="http://rosstuck.com/" rel="noreferrer noopener" target="_blank" itemprop="worksFor">rosstuck.com</a>)
+                    </li>
+                    <li itemprop="colleague" itemscope itemtype="http://schema.org/Person">
+                        <a href="http://www.linkedin.com/in/hjvos" rel="noreferrer noopener" target="_blank" itemprop="name">Jeroen Vos</a> - <span itemprop="jobTitle">Managing Director</span> of <a href="https://www.ingoedebanen.nl/" rel="noreferrer noopener" target="_blank" itemprop="worksFor">InGoedeBanen.nl BV</a>
+                    </li>
+                    <li itemprop="colleague" itemscope itemtype="http://schema.org/Person">
+                        <a href="http://www.linkedin.com/in/martinbelnl" rel="noreferrer noopener" target="_blank" itemprop="name">Martin Bel</a> - <span itemprop="jobTitle">Senior Functional Designer</span> at <a href="https://www.rdw.nl/" rel="noreferrer noopener" target="_blank" itemprop="worksFor">RDW</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="sec_col">
+                <h4 class="sec_col_hdr">Personal Details</h4>
+                <ul class="ul_plain">
+                    <li>Name:
+                        <span itemprop="givenName">Johan</span>
+                        <span itemprop="additionalname">Warnar</span>
+                        <span itemprop="additionalname">Lando</span>
+                        <span itemprop="familyName">Boekkooi</span>
+                    </li>
+                    <li>Gender: <span itemprop="gender">Male</span></li>
+                    <li>Birthdate: <span itemprop="birthDate">28 august 1986</span></li>
+                    <li>Nationality: <span itemprop="nationality">Dutch</span></li>
+                </ul>
+            </section>
+        </div>
+    </section>
+    <footer id="cv_ftr">
+        Warnar Boekkooi
+        <a href="mailto:nice-job@boekkooi.net" rel="noopener" target="_blank" itemprop="email"><i class="fa fa-envelope-o"></i> nice-job@boekkooi.net</a>
+    </footer>
+</section>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-41924683-1', 'boekkooi.net');ga('send', 'pageview');</script>
+</body>
+</html>
